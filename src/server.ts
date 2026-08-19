@@ -9,8 +9,8 @@ import {
   startInvoiceTimeoutMonitor,
   startRepaymentReminderMonitor,
 } from "./jobs/index.js";
-import { startLedgerReconciliationMonitor } from "./jobs/ledgerReconciliation.js";
 import { standardErrorHandler } from "./lib/errors.js";
+import { startLedgerReconciliationMonitor } from "./jobs/ledgerReconciliation.js";
 import { facilityDeps } from "./lib/facilityDeps.js";
 import { fastifyLoggerOptions } from "./lib/logger.js";
 import { createMailTransport } from "./lib/mailer.js";
